@@ -8,8 +8,8 @@ and add this to it. [^1] [^2] [^3]
 panel_custom:
       # Required: The panel_custom integration allows you to write your own panels in JavaScript and add them to Home Assistant. 
 
-  - name: Unifi #Name of the panel
-      #Required: Name of the web integration that renders your panel*
+  - name: Unifi
+      #Required: Name of the web integration that renders your panel
 
     sidebar_title: Unifi  
       # Required: panel title in the sidebar, Omitting means no sidebar entry (but still accessible through the URL) 
