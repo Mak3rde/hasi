@@ -9,7 +9,7 @@ panel_custom:
       # Required: The panel_custom integration allows you to write your own panels in JavaScript and add them to Home Assistant. 
 
   - name: UniFi Admin #Name of the panel
-      *Required: Name of the web integration that renders your panel*
+      #Required: Name of the web integration that renders your panel*
 
     sidebar_title: UniFi Admin 
       # Required: panel title in the sidebar, Omitting means no sidebar entry (but still accessible through the URL) 
@@ -20,7 +20,7 @@ panel_custom:
     url_path: unifi 
       # Optional: defines the url that will open the entry directly e.g. http://homeassistant.local:8123/unifi
 
-    module_url: /local/uniFi_network_application.js 
+    module_url: /local/unifi_network_application.js 
       # Required: JavaScript path. loads a JavaScript instead of a script.
 
     embed_iframe: false 
