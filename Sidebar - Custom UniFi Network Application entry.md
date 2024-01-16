@@ -8,13 +8,13 @@ and add this to it. [^1] [^2] [^3]
 panel_custom:
       # Required: The panel_custom integration allows you to write your own panels in JavaScript and add them to Home Assistant. 
 
-  - name: Unifi
+  - name: Unifi Dashboard
       #Required: Name of the web integration that renders your panel
 
-    sidebar_title: Unifi  
+    sidebar_title: Unifi Dashboard  
       # Required: panel title in the sidebar, Omitting means no sidebar entry (but still accessible through the URL) 
 
-    sidebar_icon: mdi:security-network 
+    sidebar_icon: mdi:security 
       # Optional: defines the icon used in the side bar, full list -> https://pictogrammers.com/library/mdi/
 
     url_path: unifi 
@@ -78,7 +78,7 @@ when the developer tools pannel has opened
 
 # Step 3:
 
-- Create a new file UniFi_Network_Application.js in /homeassistant/www/  
+- Create a new file  unifi_network_application.js in /homeassistant/www/  
 - paste code block 1 or 2 in to your unifi_network_application.js  
 - Save the file  
 - Restart Homeassistant so it can take effekt.
