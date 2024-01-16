@@ -3,6 +3,11 @@
 open your homassistant configuration.yaml
 and add this to it. [^1] [^2] [^3]
 
+>[!NOTE]
+>if you allready have a *panel_custom:*  
+>entry in you configuration.yaml  
+>don't add the *panel_custom:* line again.
+
 ```
 ##Tasmo Admin Aplication Pannel  
 panel_custom:
