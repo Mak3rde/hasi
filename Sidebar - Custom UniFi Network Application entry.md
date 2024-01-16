@@ -63,11 +63,14 @@ when the developer tools pannel has opened
 - Refresh the page. 
 
 >[!CAUTION]
->If the AMD software Adrenalin Edition is installed,  
->the amd software seems to override the browser shortcut,  
->the browser developer tools will not open  
->instead the shortcut triggers a screenshot capture,  
->to prevent this, if possible press F12 to open the developer tools.  
+>If the AMD Software Adrenalin Edition is installed,  
+>the AMD Software seems to override the browser shortcuts,  
+>so the browser developer tools will not open.  
+>Instead the shortcut triggers a screenshot capture,  
+>to prevent this use F12 to open the developer tools.  
+>Or disable or change the shortcut in AMD Adrenalin. 
+
+
 >This information is as of January 16, 2024.  
 >It is possible that the key combinations will change again in the future.  
 >Recently the AMD screenshot capture shortcut was Ctrl+Shift+E.  
